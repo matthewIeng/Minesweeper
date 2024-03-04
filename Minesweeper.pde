@@ -28,8 +28,8 @@ void setup ()
 }
 public void setMines()
 {
-  int mineRows = (int)(Math.random() * 5);
-  int mineCols = (int)(Math.random() * 5);
+  int mineRows = (int)(Math.random() * 20);
+  int mineCols = (int)(Math.random() * 20);
   if(mines.contains(buttons[mineRows][mineCols]) == false) {
     mines.add(buttons[mineRows][mineCols]);
   }
